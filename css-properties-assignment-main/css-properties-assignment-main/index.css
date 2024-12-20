@@ -1,0 +1,105 @@
+.navBar{
+    top: 0;
+    text-align: center;
+    background-color: lightgreen;
+    
+}
+
+.floatLeft{
+    width: 600px;
+    height: 400px;
+    border: solid;
+}
+
+#frogs{
+    float: left;
+    height: 300px;
+    width: 400px;
+}
+
+.floatRight{
+    width: 600px;
+    height: 400px;
+    border: solid;
+}
+
+#dogs{
+    float: right;
+    height: 300px;
+    width: 400px;
+}
+
+.floatInlineStart{
+    width: 600px;
+    height: 400px;
+    border: solid;
+}
+
+#snakes{
+    float: inline-start;
+    height: 300px;
+    width: 400px;
+}
+
+.floatInlineEnd{
+    width: 600px;
+    height: 400px;
+    border: solid;
+}
+
+#mouse{
+    float: inline-end;
+    height: 300px;
+    width: 400px;
+}
+
+.none{
+    width: 600px;
+    height: 400px;
+    border: solid;
+}
+
+#monkey{
+    float: none;
+    height: 300px;
+    width: 400px;
+}
+
+.overflowVisible{
+    height: 100px;
+    width: 200px;
+    background-color: lightblue;
+    overflow: visible;
+}
+
+.overflowHidden{
+    margin-top: 200px;
+    height: 200px;
+    width: 200px;
+    background-color: lightblue;
+    overflow: hidden;
+}
+
+.overflowClip{
+    margin-top: 100px;
+    height: 200px;
+    width: 200px;
+    background-color: lightblue;
+    overflow: clip;
+}
+
+.overflowScroll{
+    margin-top: 100px;
+    height: 200px;
+    width: 200px;
+    background-color: lightblue;
+    overflow: scroll;
+}
+
+.overflowAuto{
+    margin-top: 100px;
+    height: 200px;
+    width: 200px;
+    background-color: lightblue;
+    overflow: auto;
+}
