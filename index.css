@@ -66,6 +66,40 @@
 }
 
 .overflowVisible{
+    height: 100px;
+    width: 200px;
+    background-color: lightblue;
     overflow: visible;
 }
 
+.overflowHidden{
+    margin-top: 200px;
+    height: 200px;
+    width: 200px;
+    background-color: lightblue;
+    overflow: hidden;
+}
+
+.overflowClip{
+    margin-top: 100px;
+    height: 200px;
+    width: 200px;
+    background-color: lightblue;
+    overflow: clip;
+}
+
+.overflowScroll{
+    margin-top: 100px;
+    height: 200px;
+    width: 200px;
+    background-color: lightblue;
+    overflow: scroll;
+}
+
+.overflowAuto{
+    margin-top: 100px;
+    height: 200px;
+    width: 200px;
+    background-color: lightblue;
+    overflow: auto;
+}
